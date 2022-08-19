@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
 /*
 --- 01 TYPOGRAPHY SYSTEM
 
@@ -46,13 +48,38 @@ Medium: 11px
 /* -- CONTEÚDO DE CABEÇALHO  -- */
 
     /*BARRA DE NAVEGAÇÃO*/
+    .logo-text {
+        font-family: 'Silkscreen', cursive;
+    }
+
+    .logo-text:first-child {
+        font-size: 1.8rem;
+    }
+
+    .logo-text:last-child {
+        font-size: 2.4rem;
+    }
+
+    .barra-de-nav {
+        padding : 2.4rem 0;
+    }
+
     .lista-dos-links {
         list-style: none;
     }
 
     .links {
         text-decoration: none;
+        color : #165a9a;
         font-size: 1.6rem;
+    }
+
+    .agendar-corte-btn {
+        padding : 1.2rem;
+        border: none;
+        color : #fff;
+        border-radius: 5px;
+        background-color : #1864ab; 
     }
 
 /*  -- CONTEÚDO PRINCIPAL --  */
