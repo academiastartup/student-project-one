@@ -66,11 +66,23 @@ body {
   color: #555;
 }
 
+/*ESTILIZAÇÃO DE ÍCONE*/
+.icone {
+  width : 6.4rem;
+  fill : #fff;
+  color : #fff;
+}
+
+
 /*ESTILIZAÇÃO DE TEXTO*/
 .texto-enfatizado {
   color : #1864ab;
 }
 
+.texto-descricao {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
 
 /*ESTILIZAÇÃO DE ESPAÇO*/
 .gap-12px {
@@ -83,6 +95,10 @@ body {
 
 .medium-padding-bottom {
   padding-bottom: 1.6rem;
+}
+
+.medium-margin-bottom {
+  margin-bottom: 3.2rem;
 }
 
 .large-margin-top {
@@ -131,7 +147,7 @@ body {
   align-items: center;
 }
 
-.justify-ceter {
+.justify-center {
   justify-content: center;
 }
 
