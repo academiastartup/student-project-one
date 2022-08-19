@@ -54,3 +54,19 @@ Medium: 11px
         text-decoration: none;
         font-size: 1.6rem;
     }
+
+/*  -- CONTEÚDO PRINCIPAL --  */
+
+    /*HERO*/
+    
+
+    /*CORTES*/
+    .corte {
+        width : 100%;
+        border: solid 1px blue;
+    }
+
+    /*TESTEMUNHOS*/
+    .testemunho-descricao {
+        text-align: center;
+    }

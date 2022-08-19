@@ -14,14 +14,16 @@
     <link rel="stylesheet" href="style/styles.css">
     <link rel="stylesheet" href="style/general.css">
     <link rel="stylesheet" href="style/queries.css">
-    link
     <title>Barbearia bom gosto - Página Inicial</title>
 </head>
 <body>
-    <header>
+
+    <header class="container">
       <!-- CONTEÚDO DE CABEÇALHO  -->
       <nav class="barra-de-nav flex-container space-between">
-        <section class="area-do-logo"></section>
+        <section class="area-do-logo">
+          <h1>Bom Corte</h1>
+        </section>
         <section class="area-dos-links">
           <ul class="lista-dos-links flex-container gap-12px space-evenly">
             <li><a href="#" class="links">Barbeiros</a></li>
@@ -34,12 +36,14 @@
         </section>
       </nav>
     </header>
+
+
     <main>
       <!-- CONTEÚDO PRINCIPAL -->
       
       
       <!-- /// SECÇÃO HERO /// -->
-      <section class="hero">
+      <section class="hero container flex-container space-between">
         <section class="hero-texto">
           <h1>Os melhores cortes e os melhores preços da cidade</h1>
           <p>Os nossos barbeiros tem formação profissional e nunca decepcionam</p>
@@ -50,7 +54,7 @@
       </section>
 
       <!-- /// SECÇÃO DOS CORTES /// -->
-      <section class="cortes">
+      <section class="cortes container grid-container three-col-3">
 
         <!-- /////// PRIMEIRA LINHA /////// -->
         <section class="corte">
@@ -134,7 +138,7 @@
       </section>
 
       <!-- /// SECÇÃO DAS AMENIDADES /// -->
-      <section class="amenidades">
+      <section class="amenidades container flex-container justify-ceter gap-24px">
 
         <!-- /////// COLUNA 1 /////// -->
         <section class="amenidade-musica">
@@ -165,8 +169,8 @@
       </section>
 
       <!-- /// SECÇÃO DOS BARBEIROS /// -->
-      <section class="barbeiros">
-        <section class="barbeiro-1">
+      <section class="barbeiros container">
+        <section class="barbeiro-1 flex-container">
           <section class="barbeiro-foto">
             <img src="img/barbeiro-1.jpg" alt="fotografia de um barbeiro">
           </section>
@@ -176,7 +180,7 @@
           </section>
         </section>
 
-        <section class="barbeiro-2">
+        <section class="barbeiro-2 flex-container flex-end">
           <section class="barbeiro-foto">
             <img src="img/barbeiro-2.jpg" alt="fotografia de um barbeiro">
           </section>
@@ -189,32 +193,41 @@
 
 
       <!-- /// SECÇÃO DOS RELATOS DOS CLIENTES (TESTEMUNHO) /// -->
-      <section class="testemunhos">
+      <section class="testemunhos container grid-container three-col-3">
         
         <!-- /////// COLUNA 1 /////// -->
-        <section class="testemunho">
+        <section class="testemunho flex-container vertical-axis align-center">
           <section class="foto-do-cliente">
             <img src="img/clientes/cliente-2.jpg" alt="fotografia do cliente">
           </section>
-          <section class="testemunho-descricao"></section>
+          <section class="testemunho-descricao">
+            <h3>Nome do Cliente</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus provident velit expedita fuga, impedit illum reiciendis aspernatur sint dolore quibusdam quia nihil tempore necessitatibus cumque reprehenderit eos ut ad dicta!</p>
+          </section>
           <section class="testemunho-classificacao"></section>
         </section>
 
         <!-- /////// COLUNA 2 /////// -->
-        <section class="testemunho">
+        <section class="testemunho flex-container vertical-axis align-center">
           <section class="foto-do-cliente">
             <img src="img/clientes/cliente-3.jpg" alt="fotografia do cliente">
           </section>
-          <section class="testemunho-descricao"></section>
+          <section class="testemunho-descricao">
+            <h3>Nome do Cliente</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus provident velit expedita fuga, impedit illum reiciendis aspernatur sint dolore quibusdam quia nihil tempore necessitatibus cumque reprehenderit eos ut ad dicta!</p>
+          </section>
           <section class="testemunho-classificacao"></section>
         </section>
 
         <!-- /////// COLUNA 3 /////// -->
-        <section class="testemunho">
+        <section class="testemunho flex-container vertical-axis align-center">
           <section class="foto-do-cliente">
             <img src="img/clientes/cliente-4.jpg" alt="fotografia do cliente">
           </section>
-          <section class="testemunho-descricao"></section>
+          <section class="testemunho-descricao">
+            <h3>Nome do Cliente</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus provident velit expedita fuga, impedit illum reiciendis aspernatur sint dolore quibusdam quia nihil tempore necessitatibus cumque reprehenderit eos ut ad dicta!</p>
+          </section>
           <section class="testemunho-classificacao"></section>
         </section>
       </section>
@@ -223,7 +236,7 @@
     </main>
     <footer>
       <!-- /// SECÇÃO DA LOCALIZAÇÃO E CONTACTOS /// -->
-      <section class="footer">
+      <section class="footer container">
         <section class="contactos">
           <div class="localizacao-texto-e-icone">
             <p>Rua Vicente Ferreira 60-64, Cidade Baixa Huambo</p>

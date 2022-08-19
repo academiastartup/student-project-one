@@ -72,16 +72,57 @@ body {
   gap : 1.2rem;
 }
 
+.gap-24px {
+  gap : 3.2rem;
+}
+
 
 /*ESTILIZAÇÃO DE LAYOUT*/
+.grid-container {
+  display: grid;
+}
+
+
+.three-col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .flex-container {
   display : flex;
+}
+
+.vertical-axis {
+  flex-direction: column;
+}
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
 }
 
 .space-between {
   justify-content: space-between;
 }
 
+.flex-end {
+  justify-content: flex-end;
+}
+
 .space-evenly {
   justify-content: space-evenly;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-ceter {
+  justify-content: center;
+}
+
+/*ESTILIZAÇÃO TEMPORÁRIA*/
+img {
+  width : 100px;
 }
