@@ -66,6 +66,11 @@ body {
   color: #555;
 }
 
+/*ESTILIZAÇÃO DE TEXTO*/
+.texto-enfatizado {
+  color : #1864ab;
+}
+
 
 /*ESTILIZAÇÃO DE ESPAÇO*/
 .gap-12px {
@@ -74,6 +79,10 @@ body {
 
 .gap-24px {
   gap : 3.2rem;
+}
+
+.medium-padding-bottom {
+  padding-bottom: 1.6rem;
 }
 
 .large-margin-top {

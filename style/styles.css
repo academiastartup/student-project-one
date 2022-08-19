@@ -85,7 +85,18 @@ Medium: 11px
 /*  -- CONTEÚDO PRINCIPAL --  */
 
     /*HERO*/
-    
+    .hero-titulo {
+        font-size: 3.2rem;
+    }
+
+    .hero-descricao {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+
+    .hero-foto {
+        width : 22rem;
+    }
 
     /*CORTES*/
     .corte {
