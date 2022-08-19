@@ -120,6 +120,22 @@ Medium: 11px
         line-height: 3.2rem;
     }
 
+    /*BARBEIROS*/
+    .barbeiro-nome {
+        font-size : 1.8rem;
+    }
+
+    .barbeiro-descricao {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+
+    .foto-barbeiro {
+        width : 20rem;
+        height : 25rem;
+    }
+
+
     /*TESTEMUNHOS*/
     .testemunho-descricao {
         text-align: center;
