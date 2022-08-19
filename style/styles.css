@@ -99,9 +99,25 @@ Medium: 11px
     }
 
     /*CORTES*/
-    .corte {
+    .lista-das-caracteristicas-do-corte li {
+        list-style: none;
+    }
+
+    .foto-do-corte {
         width : 100%;
-        border: solid 1px blue;
+        height : 400px;
+    }
+
+    .corte {
+        padding: 2.4rem;
+        background-color: rgba(22, 90, 154, 0.069);
+        width : 100%;
+    }
+
+    .lista-das-caracteristicas-do-corte li {
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 3.2rem;
     }
 
     /*TESTEMUNHOS*/
