@@ -76,6 +76,10 @@ body {
   gap : 3.2rem;
 }
 
+.large-margin-top {
+  margin-top: 6.4rem;
+}
+
 
 /*ESTILIZAÇÃO DE LAYOUT*/
 .grid-container {
